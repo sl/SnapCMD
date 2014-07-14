@@ -6,7 +6,7 @@ A simplistic extension for the Windows Command line that changes the default sty
 Installation
 ------------
 
-To install, simply download SnapInstall.EXE from the "Releases" page on the github repository, and run the executable. To run Snap, simply run the shortcut that should have been placed on your desktop.
+To install, simply download SnapInstall.EXE from the "Releases" page on the github repository, and run the executable **with administrator privileges**. To run Snap, simply run the shortcut that should have been placed on your desktop.
 
 Command Usage
 -------------
