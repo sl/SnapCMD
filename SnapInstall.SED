@@ -1,0 +1,41 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=0
+HideExtractAnimation=0
+UseLongFileName=0
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=%InstallPrompt%
+DisplayLicense=%DisplayLicense%
+FinishMessage=%FinishMessage%
+TargetName=%TargetName%
+FriendlyName=%FriendlyName%
+AppLaunched=%AppLaunched%
+PostInstallCmd=%PostInstallCmd%
+AdminQuietInstCmd=%AdminQuietInstCmd%
+UserQuietInstCmd=%UserQuietInstCmd%
+SourceFiles=SourceFiles
+[Strings]
+InstallPrompt=Are you sure you would like to Install SnapCMD and any associated tools?
+DisplayLicense=
+FinishMessage=Successfully installed SnapCMD! Just run the Snap.exe shortcut located on the Desktop to launch Snap!
+TargetName=C:\Users\Administrator\Documents\Development\snap\SnapInstall.EXE
+FriendlyName=SnapCMD
+AppLaunched=cmd /c install.bat
+PostInstallCmd=<None>
+AdminQuietInstCmd=
+UserQuietInstCmd=
+FILE0="install.bat"
+FILE1="snap.cmd"
+FILE2="Snap.exe.lnk"
+[SourceFiles]
+SourceFiles0=C:\Users\Administrator\Documents\development\snap\
+[SourceFiles0]
+%FILE0%=
+%FILE1%=
+%FILE2%=
