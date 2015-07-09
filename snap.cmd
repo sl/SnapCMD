@@ -6,7 +6,7 @@ DOSKEY ls=dir
 DOSKEY clear=cls
 DOSKEY subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*
 DOSKEY ~= cd %userprofile%\$Tcd $1
-DOSKEY ..=@echo off$Tcd ..$Tfor /l %%x in (2, 1, $1) do cd ..$T@echo on
+DOSKEY ..=@cd ..$Tfor /l %%x in (2, 1, $1) do @cd ..
 
 DOSKEY snaphelp=@echo off$T^
 echo.$T^
@@ -20,7 +20,7 @@ echo       .. [n]        - cd to [n]th super directory shortcut$T^
 echo       snaphelp      - Displays this help dialog$T^
 @echo on
 
-if not exist %SNAPCMD_HOME%\snap-plugins mkdir %SNAPCMD_HOME%\snap-plugins
+if not exist "%SNAPCMD_HOME%\snap-plugins" mkdir "%SNAPCMD_HOME%\snap-plugins"
 
 for %%v in ("%SNAPCMD_HOME%\snap-plugins\*") do call "%%~v"
 

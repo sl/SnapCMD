@@ -26,14 +26,14 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 IF [%1]==[] (
-	SET INSTALL_DIR=%USERPROFILE%\SnapCMD
+	SET INSTALL_DIR=%PROGRAMFILES%\SnapCMD
 ) ELSE (
 	SET INSTALL_DIR=%1
 )
-mkdir %INSTALL_DIR%
-SETX SNAPCMD_HOME %INSTALL_DIR% /m
+mkdir "%INSTALL_DIR%"
+SETX SNAPCMD_HOME "%INSTALL_DIR%" /m
 
-copy /Y snap.cmd %INSTALL_DIR%
+copy /Y snap.cmd "%INSTALL_DIR%""
 copy /Y SNAPEX~1.lnk %userprofile%\Desktop\Snap.exe.lnk
 ECHO Successfully installed SnapCMD
 PAUSE
