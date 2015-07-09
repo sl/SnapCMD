@@ -16,8 +16,7 @@ Command Usage
 | ls      | ```ls``` |  Lists the contents of the current directory |
 | clear   | ```clear``` | Clears the command promt (```cls``` alias) |
 | subl    | ```subl [path]``` | Opens the specified file or directory in sublime text |
-| ~       | ```~ [path]``` | cd to ```C:\[path]``` |
-| ~u      | ``` ~u [path]``` | cd to ```C:\%userprofile%\[path]``` |
+| ~       | ```~ [path]``` | cd to ```C:\%userprofile%\[path]``` |
 | ..      | ```.. [n]``` | cd to the ```n```'th parent directory (```n``` defaults to 1) |
 | snaphelp | ```snaphelp``` | displays a help dialog |
 
