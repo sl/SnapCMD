@@ -49,5 +49,5 @@ Command Usage
 Plugins
 -------
 
-Plugins allow you to define your own aliases. (see C:\\snap.cmd for examples) To do this, simply make a .cmd file inside C:\snap-plugins and add any commands necessary to it. All files from that folder will be loaded. (as this is a security risk, if you would like to disable this feature, simply remove or commend out the last few lines in C:\\snap.cmd)
+Plugins allow you to define your own aliases. (see C:\\snap.cmd for examples) To do this, simply make a .cmd file inside C:\snap-plugins and add any commands necessary to it. All files from that folder will be loaded. (as this is a security risk, if you would like to disable this feature, simply remove or comment out the last few lines in C:\\snap.cmd)
 
